@@ -1,0 +1,9 @@
+body{font-family:Arial;margin:0;background:#eef5ff}
+header{background:#0B5ED7;color:#fff;padding:15px;display:flex;justify-content:space-between;align-items:center}
+.container{display:grid;grid-template-columns:2fr 1fr;gap:20px;padding:20px;max-width:1200px;margin:auto}
+.panel,.login{background:#fff;padding:20px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+.card{background:#f6f9ff;border-left:4px solid #0B5ED7;padding:10px;margin:10px 0}
+input,button{width:100%;padding:12px;margin:8px 0}
+button{background:#0B5ED7;color:#fff;border:none;border-radius:5px}
+.circle{width:220px;height:220px;border-radius:50%;background:conic-gradient(#0B5ED7 78%,#dcecff 0);display:flex;align-items:center;justify-content:center;margin:20px auto}
+.inner{width:170px;height:170px;background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-direction:column}
